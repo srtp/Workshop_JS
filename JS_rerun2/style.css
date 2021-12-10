@@ -1,0 +1,28 @@
+.message {
+    background-color: white;
+    border: 2px solid black;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.message.orange-box{
+    background-color: orange;
+}
+
+
+.message.green-box{
+    background-color: forestgreen;
+}
+
+.dark-theme{
+    color: white;
+    background-color: black;
+}
+
+.dark-theme .message {
+    color: white;
+    background-color:#3333;
+    border-color: gold;
+    
+
+}
