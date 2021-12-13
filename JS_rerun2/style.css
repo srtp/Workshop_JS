@@ -54,3 +54,31 @@
 .scroll-info.hide{
     top: -61px
 }
+
+/* มาจาก dom attribute */
+
+.spoil-button {
+    font-size: 20px;
+    padding: 8px;
+  }
+  
+  .spoil-message {
+    background-color: white;
+    border: 2px solid black;
+    font-size: 18px;
+    display: none;
+    padding: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .spoil-message.show {
+    display: block;
+  }
+
+  /* Dom Modify */
+  .todo {
+      padding: 30px;
+      border: solid 1px;
+      border-color: black;
+      margin: 20px;
+  }
