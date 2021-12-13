@@ -38,3 +38,19 @@
     width: 400px;
     height: 400px;
 }
+
+/* มาจาก JS DOM SCROLL */
+.scroll-info{
+    background-color: rgb(230, 135, 11);
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 99;
+    transition: top 0.3s ease-out;
+}
+
+.scroll-info.hide{
+    top: -61px
+}
